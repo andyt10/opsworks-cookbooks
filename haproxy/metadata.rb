@@ -6,7 +6,7 @@ license          "Apache 2.0"
 version          "1.0.0"
 
 recipe 'haproxy', 'Install and configure a HAProxy instance'
-recipe 'haproxy::configure', 'reconfigure and restart HAProxy'
+recipe 'haproxy::configure_custom', 'reconfigure and restart HAProxy'
 
 attribute 'haproxy/backend',
   :display_name => 'Backend',
